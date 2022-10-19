@@ -10,6 +10,7 @@ sudo rm -i /swapfile -y
 
 # create new swapfile
 echo "creating new swapfile"
+echo "wait please"
 sudo dd if=/dev/zero of=/swapfile bs=1M count=4096
 
 # set new swap protection
